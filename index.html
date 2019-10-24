@@ -1,0 +1,58 @@
+DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename= 'Wonderful.css')}}">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+    <title>RobotArm Bluetooth</title>
+  <body>
+    <h2> Servo </h2>
+    <div class="w3-container">
+        <section class="button">
+            <form action="/" method="post">
+                        <p>Servo.1 Degree : {{XAX}}</p>
+                        <button class="w3-button w3-border w3-hover-red" type="submit" name="submit" value="1/0"> 0 </button>
+                        <button class="w3-button w3-border w3-hover-pink" type="submit" name="submit" value="1/20"> 20 </button>
+                        <button class="w3-button w3-border w3-hover-purple" type="submit" name="submit" value="1/40"> 40 </button>
+                        <button class="w3-button w3-border w3-hover-blue" type="submit" name="submit" value="1/60"> 60 </button>
+                        <button class="w3-button w3-border w3-hover-aqua" type="submit" name="submit" value="1/80"> 80 </button>
+                        <button class="w3-button w3-border w3-hover-green" type="submit" name="submit" value="1/100"> 100 </button>
+                        <button class="w3-button w3-border w3-hover-light-green" type="submit" name="submit" value="1/120"> 120 </button>
+                        <button class="w3-button w3-border w3-hover-yellow" type="submit" name="submit" value="1/140"> 140 </button>
+                        <button class="w3-button w3-border w3-hover-orange" type="submit" name="submit" value="1/160"> 160 </button>
+                        <button class="w3-button w3-border w3-hover-deep-orange" type="submit" name="submit" value="1/180"> 180 </button>
+                    <p>
+                        <p>Servo.2 Degree : {{XAA}}</p>
+                        <button class="w3-button w3-border w3-hover-red" type="submit" name="submit" value="2/0"> 0 </button>
+                        <button class="w3-button w3-border w3-hover-pink" type="submit" name="submit" value="2/20"> 20 </button>
+                        <button class="w3-button w3-border w3-hover-purple" type="submit" name="submit" value="2/40"> 40 </button>
+                        <button class="w3-button w3-border w3-hover-blue" type="submit" name="submit" value="2/60"> 60 </button>
+                        <button class="w3-button w3-border w3-hover-aqua" type="submit" name="submit" value="2/80"> 80 </button>
+                    <p>
+                        <p>Servo.3 Degree : {{XAB}}</p>
+                        <button class="w3-button w3-border w3-hover-red" type="submit" name="submit" value="3/0"> 0 </button>
+                        <button class="w3-button w3-border w3-hover-pink" type="submit" name="submit" value="3/20"> 20 </button>
+                        <button class="w3-button w3-border w3-hover-purple" type="submit" name="submit" value="3/40"> 40 </button>
+                        <button class="w3-button w3-border w3-hover-blue" type="submit" name="submit" value="3/60"> 60 </button>
+                        <button class="w3-button w3-border w3-hover-aqua" type="submit" name="submit" value="3/80"> 80 </button>
+                    <p>
+                        <p>Servo.4 Degree : {{XAD}}</p>
+                        <button class="w3-button w3-border w3-hover-red" type="submit" name="submit" value="5/0"> 0 </button>
+                        <button class="w3-button w3-border w3-hover-pink" type="submit" name="submit" value="5/20"> 20 </button>
+                        <button class="w3-button w3-border w3-hover-purple" type="submit" name="submit" value="5/40"> 40 </button>
+                        <button class="w3-button w3-border w3-hover-blue" type="submit" name="submit" value="5/60"> 60 </button>
+                        <button class="w3-button w3-border w3-hover-aqua" type="submit" name="submit" value="5/80"> 80 </button>
+                        <button class="w3-button w3-border w3-hover-green" type="submit" name="submit" value="5/100"> 100 </button>
+                        <button class="w3-button w3-border w3-hover-light-green" type="submit" name="submit" value="5/120"> 120 </button>
+                        <button class="w3-button w3-border w3-hover-yellow" type="submit" name="submit" value="5/140"> 140 </button>
+                        <button class="w3-button w3-border w3-hover-orange" type="submit" name="submit" value="5/160"> 160 </button>
+                        <button class="w3-button w3-border w3-hover-deep-orange" type="submit" name="submit" value="5/180"> 180 </button>
+                    <p>
+                        <p>
+                        <button class="w3-button w3-border w3-hover-light-green" type="submit" name="submit" value="4/120"> Release </button>
+                        <button class="w3-button w3-border w3-hover-deep-orange" type="submit" name="submit" value="4/180"> Catch </button>
+                    <p>
+                    <br>
+                        <button class="w3-button w3-border w3-hover-deep-orange" type="submit" name="submit" value="123" style="width:100px;height:50px;"> default </button><p>
+            </form>
+        </section>
